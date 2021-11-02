@@ -1,6 +1,6 @@
 class CharSpawn:
 
-    def __init__(self, name, x_pos=0, y_pos=0):
+    def __init__(self, name, x_pos, y_pos):
         self.name = name
         self.x_pos = x_pos
         self.y_pos = y_pos
@@ -14,6 +14,6 @@ class CharSpawn:
     def where_am_i(self):
         print(f"{self.name} currently at {self.x_pos},{self.y_pos}")
 
-kevin = CharSpawn("Kevin", 3, 7)
-kevin.move_char(5,2)
-kevin.where_am_i()
+#kevin = CharSpawn("Kevin", 3, 7)
+#kevin.move_char(5,2)
+#kevin.where_am_i()
